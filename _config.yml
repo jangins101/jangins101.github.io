@@ -1,12 +1,13 @@
-title: The Hive Blog
+title: The Hive
 author: Michael Jenkins
 email: mjenkins@hivesol.com
-description: > # this means to ignore newlines until "show_exerpts:"
+description: >
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
+url: http://jangins101.github.io
 show_excerpts: true # set to true to show excerpts on the homepage
-excets_separator: -----
+excerpt_separator: "<!--more-->"
 
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -14,7 +15,7 @@ sass:
   sass_dir: _sass
 plainwhite:
   name: Michael Jenkins
-  tagline: Cloud Architect
+  tagline: Azure Cloud Architect
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   search: true # set to true to enable searchbar
@@ -27,23 +28,16 @@ plainwhite:
     twitter: jangins101
     github:  jangins101
     linkedIn: in/jangins101
-    #rss: rss
-    #dribbble: jekyll
-    #flickr:   jekyll
-    #instagram: jekyll
-    #pinterest: jekyll
-    #youtube: jekyll
-    #facebook: jekyll
-    #soundcloud: jekyll
-    #telegram: jekyll
-    #gitlab: jekyll
-
-    # Mastodon instances
-    # mastodon:
-    # - username: jekyll
-    #   instance: example.com
-    # - username: jekyll2
-    #   instance: example.com
+    #rss:
+    #dribbble: 
+    #flickr:   
+    #instagram: 
+    #pinterest: 
+    #youtube: 
+    #facebook: 
+    #soundcloud: 
+    #telegram: 
+    #gitlab: 
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
