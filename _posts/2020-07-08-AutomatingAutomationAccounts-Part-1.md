@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Automating Azure Automation Accounts - Part 1"
+title:  "Automating Azure Automation Accounts - Part 1 - Setting up the resources"
 date:   2020-07-08 20:00:00 -0500
 categories: Azure Automation DevOps Module
 ---
@@ -63,3 +63,4 @@ Now that all this is taken care of, I am ready for the next step. I need to shar
 #### Links
 * [Intro  - Introduction to the series]({% post_url 2020-07-01-AutomatingAutomationAccounts-Intro %})
 * [Part 1 - Setting up the Automation Account + Source Control]({% post_url 2020-07-08-AutomatingAutomationAccounts-Part-1 %})
+* [Part 2 - Setting up the custom Module]({% post_url 2020-07-15-AutomatingAutomationAccounts-Part-2 %})
