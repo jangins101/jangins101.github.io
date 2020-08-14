@@ -64,3 +64,4 @@ Now that all this is taken care of, I am ready for the next step. I need to shar
 * [Intro  - Introduction to the series]({% post_url 2020-07-01-AutomatingAutomationAccounts-Intro %})
 * [Part 1 - Setting up the Automation Account + Source Control]({% post_url 2020-07-08-AutomatingAutomationAccounts-Part-1 %})
 * [Part 2 - Setting up the custom Module]({% post_url 2020-07-15-AutomatingAutomationAccounts-Part-2 %})
+* [Part 3 - Automating Custom Module Deployment to Automation Account]({% post_url 2020-07-22-AutomatingAutomationAccounts-Part-3 %})

@@ -5,7 +5,6 @@ date:   2020-07-15  20:00:00 -0500
 categories: Azure Automation DevOps Module
 ---
 
-
 Now that the manual stuff was out of the way, it's time to set up the custom PowerShell module.
 
 <!--more-->
@@ -91,3 +90,4 @@ In **Part 3**, I'll show you how to automate the deployment of the module to an 
 * [Intro  - Introduction to the series]({% post_url 2020-07-01-AutomatingAutomationAccounts-Intro %})
 * [Part 1 - Setting up the Automation Account + Source Control]({% post_url 2020-07-08-AutomatingAutomationAccounts-Part-1 %})
 * [Part 2 - Setting up the custom Module]({% post_url 2020-07-15-AutomatingAutomationAccounts-Part-2 %})
+* [Part 3 - Automating Custom Module Deployment to Automation Account]({% post_url 2020-07-22-AutomatingAutomationAccounts-Part-3 %})
