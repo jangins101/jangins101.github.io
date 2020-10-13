@@ -8,6 +8,8 @@ description: >
 url: http://jangins101.github.io
 show_excerpts: true # set to true to show excerpts on the homepage
 excerpt_separator: "<!--more-->"
+environment: dev
+google_analytics: "UA-180207857-1"
 
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
