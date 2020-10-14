@@ -1,54 +1,115 @@
-title: The Hive
-author: Michael Jenkins
-email: mjenkins@hivesol.com
-description: >
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: Michael Jenkins
+subtitle: PowerShell | Azure | Identity
+email: jangins101@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Musings from a PowerShell loving, Azure architecting, enterprise engineering mind.
+
+twitter_username: jangins101
+github_username: jangins101
+search: true
+
+# Build settings
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: default
+#teaser: /assets/aaa3-05.png
+
+# Outputting
+permalink: /:categories/:title/
+paginate: 25 # amount of posts to show
+paginate_path: /page:num/
+timezone: America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+include:
+  - _pages
+
+author:
+  name   : "Michael Jenkins"
+  avatar : "/assets/portfolio.png"
+  bio    : >-
+    Azure Cloud Architect <br />
+    PowerShell Aficionado <br />
+    Identity Manager 
+  location: USA
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://jangins101.github.io"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/jangins101"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/jangins101"
+    - label: "LinkedIn"
+      icon: fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/jangins101/"
+
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/jangins101"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/jangins101"
+    - label: "LinkedIn"
+      icon: fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/jangins101/"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      show_date: true
+      comments: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "jangins101"
+
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: UA-180207857-1
+    anonymize_ip: false # default
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+  - jekyll-seo-tag
+
+
 url: http://jangins101.github.io
 show_excerpts: true # set to true to show excerpts on the homepage
 excerpt_separator: "<!--more-->"
-environment: dev
-google_analytics: "UA-180207857-1"
-
-# Minima date format
-# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
-sass:
-  sass_dir: _sass
-plainwhite:
-  name: Michael Jenkins
-  tagline: Azure Cloud Architect
-  date_format: "%b %-d, %Y"
-  sitemap: true # set to true to generate sitemap.xml content
-  search: true # set to true to enable searchbar
-  dark_mode: true # set to true to add dark mode toggle
-  portfolio_image: "assets/portfolio.png" # the path from the base directory of the site to the image to display (no / at the start)
-  html_lang: "en" # set the lang attribute of the <html> tag for the pages. See here for a list of codes: https://www.w3schools.com/tags/ref_country_codes.asp
-
-  # generate social links in footer
-  social_links:
-    twitter: jangins101
-    github:  jangins101
-    linkedIn: in/jangins101
-    #rss:
-    #dribbble: 
-    #flickr:   
-    #instagram: 
-    #pinterest: 
-    #youtube: 
-    #facebook: 
-    #soundcloud: 
-    #telegram: 
-    #gitlab: 
-
-# If you want to link only specific pages in your header, uncomment
-# this and add the path to the pages in order as they should show up
-#header_pages:
-# - about.md
-
-# Build settings
-theme: plainwhite
-
-plugins:
-  - jekyll-seo-tag
-#  - jekyll-feed
+#environment: dev
+#google_analytics: "UA-180207857-1"
