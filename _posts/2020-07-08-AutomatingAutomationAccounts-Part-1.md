@@ -1,5 +1,5 @@
 ---
-layout: post
+#layout: post
 title:  "Automating Azure Automation Accounts - Part 1 - Setting up the resources"
 date:   2020-07-08 20:00:00 -0500
 categories: Azure Automation DevOps Module

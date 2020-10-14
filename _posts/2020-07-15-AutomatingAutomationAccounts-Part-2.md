@@ -1,5 +1,5 @@
 ---
-layout: post
+#layout: post
 title:  "Automating Azure Automation Accounts - Part 2 - Creating the custom module"
 date:   2020-07-15  20:00:00 -0500
 categories: Azure Automation DevOps Module

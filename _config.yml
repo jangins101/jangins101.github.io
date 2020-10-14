@@ -1,24 +1,24 @@
 title: Michael Jenkins
 subtitle: PowerShell | Azure | Identity
-email: jangins101@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
+email: mjenkins@hivesol.com
+url: http://jangins101.github.io
+description: >-
   Musings from a PowerShell loving, Azure architecting, enterprise engineering mind.
-
-twitter_username: jangins101
-github_username: jangins101
-search: true
 
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: default
-#teaser: /assets/aaa3-05.png
+search: true
+
 
 # Outputting
+show_excerpts: true               # set to true to show excerpts on the homepage
+excerpt_separator: "<!--more-->"
 permalink: /:categories/:title/
-paginate: 25 # amount of posts to show
+paginate: 10                      # amount of posts to show
 paginate_path: /page:num/
-timezone: America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York        # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
@@ -107,9 +107,3 @@ plugins:
   - jekyll-include-cache
   - jekyll-seo-tag
 
-
-url: http://jangins101.github.io
-show_excerpts: true # set to true to show excerpts on the homepage
-excerpt_separator: "<!--more-->"
-#environment: dev
-#google_analytics: "UA-180207857-1"
