@@ -56,9 +56,18 @@ $rbac | Select * | Out-GridView;
 
 # Export the list to a CSV and open it
 $outFile =  Join-Path ([System.IO.Path]::GetTempPath()) 'AzRoleAssignments.csv';
-$rbac `
-    | Select-Object * `
-    | ConvertTo-Csv -Delimiter `t -NoTypeInformation `
-    | Out-File $outFile;
+$rbac | Export-Csv -Path $outFile -Append;
 Invoke-Item $outFile;
+```
+
+If you're looking for a simpler version of the code, you can do something like this
+
+```powershell
+Connect-AzAccount;
+$outFile =  Join-Path ([System.IO.Path]::GetTempPath()) 'AzRoleAssignments.csv';
+foreach ($sub in (Get-AzSubscription)) {
+  Select-AzSubscription -Subscription $sub | Out-Null;
+  @(Get-AzRoleAssignment -ErrorAction SilentlyContinue) | Export-Csv $outFile -Append;
+}
+ii $outFile;
 ```
