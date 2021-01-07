@@ -5,16 +5,17 @@ sitemap: false
 permalink: /about/
 ---
 
-### Expertise:
-* `AzureAD` - Configuration, Integration, Design
-* `PowerShell` - Utility development, integration with Azure, Azure AD
+### Specialties
+* `PowerShell` - Integration scripting and utility development
+* `Azure AD` - Design, deployment, configuration, integration, security
+* `Azure` - Cloud solution architecture, DevOps, cost management
+* `Office 365` - Exchange, Teams, licensing and deployment
+* `Windows` - Server deployment and troubleshooting
+* `Workday` - AzureAD / SSO integration, API and report integration
+* `Identity` - User lifecycle management design, development and deployment
+* `Consulting` - Provide leadership and architectural design for cloud solutions
+* 
+### Experience:
 * `Development` - Web services, web applications, application architecture, .NET platform, NodeJS, PowerShell
 * `Web Servers` - IIS, Apache, NGINX
 * `Database` - MSSQL, MySQL, CosmosDB
-* `Operating Systems` - Windows (server and client), some Linux servers
-
-### Experience:
-* `Identity` - Develop integrations between Active Directory and external HR systems. Define synchronization between AzureAD and external systems. Define processes and procedures for the entire identity lifecycle
-* `Azure` - Define deployment methods and policies for teams to follow. Deploy services via Portal, PowerShell, Azure CLI, ARM templates
-* `Development` - Developing synchronization processes between disparate system, web applications. Leverage Azure DevOps and Github for code development and deployment
-* `IT Consulting` - Provide leadership and architecture design for cloud deployment needs
